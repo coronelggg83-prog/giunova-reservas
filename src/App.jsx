@@ -843,11 +843,11 @@ function App() {
       <section className="py-20 bg-[#EFE5DA]/30">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#EFE5DA] shadow-md flex flex-col md:flex-row items-center gap-8">
-            <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-2xl bg-[#F8F3ED] border-2 border-dashed border-[#C88A7A]/50 flex flex-col items-center justify-center shrink-0 text-center p-3">
+            <div className=w-56 h-[400px] sm:w-64 sm:h-[460px] rounded-2xl bg-[#F8F3ED] border-2 border-dashed border-[#C88A7A]/50 flex flex-col items-center justify-center shrink-0 text-center p-3">
               <img
   src={new URL("./image.png", import.meta.url).href}
   alt="Giu"
-  className="w-full h-full object-cover rounded-2xl"
+  className="w-full h-[330px] sm:h-[390px] object-contain rounded-2xl"
 />
               <span className="text-[10px] font-bold text-[#4A3C31]/60 uppercase tracking-wider">
                 Fotografía de Giu
