@@ -841,20 +841,17 @@ function App() {
 
       {/* GIU */}
       <section className="py-20 bg-[#EFE5DA]/30">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#EFE5DA] shadow-md flex flex-col md:flex-row items-center gap-8">
-            <div className=w-56 h-[400px] sm:w-64 sm:h-[460px] rounded-2xl bg-[#F8F3ED] border-2 border-dashed border-[#C88A7A]/50 flex flex-col items-center justify-center shrink-0 text-center p-3">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="bg-white rounded-3xl p-5 sm:p-8 lg:p-12 border border-[#EFE5DA] shadow-md flex flex-col md:flex-row items-center gap-8 lg:gap-14">
+            <div className="w-full md:w-[44%] shrink-0 rounded-3xl bg-[#F8F3ED] border border-[#C88A7A]/20 p-3 sm:p-4 shadow-[0_18px_45px_-28px_rgba(74,60,49,0.4)]">
               <img
-  src={new URL("./image.png", import.meta.url).href}
-  alt="Giu"
-  className="w-full h-[330px] sm:h-[390px] object-contain rounded-2xl"
-/>
-              <span className="text-[10px] font-bold text-[#4A3C31]/60 uppercase tracking-wider">
-                Fotografía de Giu
-              </span>
+                src={new URL("./image.png", import.meta.url).href}
+                alt="Retrato profesional de Giu"
+                className="block w-full h-[420px] sm:h-[460px] lg:h-[500px] object-contain rounded-2xl"
+              />
             </div>
 
-            <div>
+            <div className="w-full md:flex-1">
               <h2 className="text-2xl font-black mb-3">Soy Giu.</h2>
 
               <p className="text-sm sm:text-base text-[#4A3C31]/80 leading-relaxed mb-4">
